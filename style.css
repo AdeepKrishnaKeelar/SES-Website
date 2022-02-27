@@ -24,18 +24,24 @@ p {
 }
 .banner .content h2 {
     font-size: 4em;
+    padding-bottom:25%;
     color: black;
+    font-weight: 500;
 }
 .banner .content h3 {
     font-size: 2.5em;
     letter-spacing: 3px;
+    padding-bottom: 5%;
+    font-weight: 500;
     color: black;
 
 }
 .banner .content p {
-    font-size: 1em;
-    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
 }
+
 .btn {
     font-size: 1em;
     color: #111;
@@ -51,7 +57,16 @@ p {
 .btn:hover {
     letter-spacing: 6px;
 }
-
+.login_btn  {
+    font-size: 1em;
+    color: #111;
+    background: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 .change-content:after{
     content: '';
     animation: changetext 10s infinite linear;
@@ -79,7 +94,7 @@ header {
     transition: 0.5s;
 }
 header.sticky {
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0);
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
